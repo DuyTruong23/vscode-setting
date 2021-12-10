@@ -1,0 +1,16 @@
+/* Custom background CodeSnap */
+
+/* Link: C:\Users\truon\.vscode\extensions\adpyke.codesnap-1.3.4\webview\style.css { */
+#snippet-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--container-padding);
+  /* background-color: var(--container-background-color);
+  width: max-content;
+  width: 100%; */
+  max-width: 500px;
+  background-image: linear-gradient(to right, #9525fb, #ff70a4);
+  /* or */
+  /* background-image: linear-gradient(to right, #20e3b2, #2cccff); */
+}
