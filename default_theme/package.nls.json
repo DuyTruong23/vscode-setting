@@ -1,15 +1,13 @@
 {
-  "displayName": "Default Themes",
-  "description": "The default Visual Studio light and dark themes",
-  "darkPlusColorThemeLabel": "Dark+ (default dark)",
-  "lightPlusColorThemeLabel": "Light+ (default light)",
-  "darkColorThemeLabel": "Dark (Visual Studio)",
-  "lightColorThemeLabel": "Light (Visual Studio)",
-  "hcColorThemeLabel": "High Contrast",
-  //new update
-  "draculaOriginal": "Dracula Original",
-  "evondevDark": "Dracula Dark",
-  "evondevHight": "Dracula Hight",
-  "draculaWhite": "Dracula White",
-  "minimalIconThemeLabel": "Minimal (Visual Studio Code)"
+	"displayName": "Default Themes",
+	"description": "The default Visual Studio light and dark themes",
+	//new update
+	"dracula": "Dracula",
+	"draculaOriginal": "Dracula Original",
+	"draculaPro": "Dracula Pro",
+	"draculaWhite": "Dracula White",
+	"draculaDark": "Dracula Dark",
+	"draculaHight": "Dracula Hight",
+	"draculaNormal": "Dracula Normal",
+	"minimalIconThemeLabel": "Minimal (Visual Studio Code)"
 }
