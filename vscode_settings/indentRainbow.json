@@ -11,5 +11,6 @@
     "rgba(72, 149, 239,0.07)",
     "rgba(76, 201, 240,0.07)"
   ],
-  "indentRainbow.errorColor": "rgba(255,0,0,0.7)"
+  "indentRainbow.ignoreLinePatterns": ["/[ \t]* [*]/g", "/[ \t]+[/]{2}/g"],
+  "indentRainbow.errorColor": "rgba(rgba(255, 0, 0, 0.4)"
 }
