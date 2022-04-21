@@ -5,7 +5,6 @@
   "editor.fontSize": 16,
   "editor.lineHeight": 20,
   "editor.tabSize": 2,
-  "editor.cursorWidth": 3,
   "editor.wordWrap": "on",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
@@ -17,6 +16,11 @@
   "prettier.singleQuote": true,
   "cSpell.language": "en,vi",
   "workbench.iconTheme": "material-icon-theme",
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggestSelection": "first",
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredLightColorTheme": "Atom One Light",
+  "workbench.preferredDarkColorTheme": "Evondev Dracula Darker Contrast",
   "files.autoSave": "afterDelay",
   "editor.codeLensFontFamily": "Fira Code, Roboto Mono, monospace",
   "editor.cursorSmoothCaretAnimation": true,
@@ -70,6 +74,18 @@
     "**/package-lock.json": true,
     "**/*.js": { "when": "$(basename).ts" }
   },
+  "editor.guides.indentation": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "indentRainbow.ignoreLinePatterns": ["/[ \t]* [*]/g", "/[ \t]+[/]{2}/g"],
+  "indentRainbow.errorColor": "rgba(rgba(255, 0, 0, 0.4)",
+  "git.enableSmartCommit": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "window.menuBarVisibility": "compact",
+  "gitlens.defaultDateLocale": "en-vi",
+  "gitlens.defaultDateFormat": "MMM:DD:YYYY h:m",
+  "gitlens.defaultTimeFormat": "h:mm",
+  "gitlens.defaultDateShortFormat": null,
+  "gitlens.hovers.currentLine.over": "line",
   "workbench.colorTheme": "Dracula Soft",
   "beautify.language": {
     "js": {
@@ -79,5 +95,28 @@
     "css": ["css", "scss"],
     "html": ["htm", "html"]
   },
-  "beautify.ignore": ["*/test.js", "**/spec/*", "**/test/**/*"]
+  "beautify.ignore": ["*/test.js", "**/spec/*", "**/test/**/*"],
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "htmltagwrap.autoDeselectClosingTag": true,
+  // Add on
+  "atlascode.jira.jqlList": [
+    {
+      "id": "32f02d69-b404-4d5a-af19-25944d6c391a",
+      "enabled": true,
+      "name": "My duytruong23 Issues",
+      "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+      "siteId": "45dc59b0-e734-4bdd-a6cf-cc3602a32eb6",
+      "monitor": true
+    }
+  ],
+  "yaml.schemas": {
+    "file:///c%3A/Users/truon/.vscode/extensions/atlassian.atlascode-2.10.11/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "redhat.telemetry.enabled": true,
+  "atlascode.helpExplorerEnabled": false,
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  }
 }
