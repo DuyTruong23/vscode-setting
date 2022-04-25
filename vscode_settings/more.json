@@ -1,4 +1,30 @@
 {
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.codeLens": true,
+  "editor.renderControlCharacters": false,
+  "editor.guides.indentation": false,
+  "editor.renderLineHighlight": "all",
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "gitlens.defaultDateLocale": "en-vi",
+  "gitlens.defaultDateFormat": "MMM:DD:YYYY h:m",
+  "gitlens.defaultTimeFormat": "h:mm",
+  "gitlens.defaultDateShortFormat": null,
+  "gitlens.hovers.currentLine.over": "line",
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "workbench.tree.renderIndentGuides": "none",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "beautify.ignore": ["*/test.js", "**/spec/*", "**/test/**/*"],
+  "diffEditor.codeLens": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -8,45 +34,17 @@
   "[json, jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "html.format.wrapAttributesIndentSize": 2,
-  "html.format.templating": true,
-  "javascript.format.insertSpaceAfterCommaDelimiter": true,
-  "javascript.format.semicolons": "insert",
-  "security.workspace.trust.banner": "never",
   "cSpell.diagnosticLevel": "Hint",
   "files.associations": {
     "*.json": "jsonc"
   },
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "editor.lineNumbers": "on",
-  "editor.codeLens": true,
-  "editor.hover.enabled": true,
-  "editor.renderWhitespace": "none",
-  "editor.renderControlCharacters": false,
-  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
-  "editor.renderLineHighlight": "all",
-  "explorer.compactFolders": false,
-  "files.trimTrailingWhitespace": true,
+  "files.eol": "\n",
   "files.exclude": {
     "**/node_modules": true,
     "**/package-lock.json": true,
     "**/*.js": { "when": "$(basename).ts" }
   },
-  "editor.guides.indentation": false,
-  "workbench.tree.renderIndentGuides": "none",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "window.menuBarVisibility": "compact",
-  "beautify.language": {
-    "js": {
-      "type": ["javascript", "json"],
-      "filename": [".jshintrc", ".jsbeautifyrc"]
-    },
-    "css": ["css", "scss"],
-    "html": ["htm", "html"]
-  },
-  "beautify.ignore": ["*/test.js", "**/spec/*", "**/test/**/*"],
-  "htmltagwrap.autoDeselectClosingTag": true,
-  // Add on
+  //! Add on
   "atlascode.jira.jqlList": [
     {
       "id": "32f02d69-b404-4d5a-af19-25944d6c391a",
@@ -57,13 +55,12 @@
       "monitor": true
     }
   ],
-  "yaml.schemas": {
-    "file:///c%3A/Users/truon/.vscode/extensions/atlassian.atlascode-2.10.11/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-  },
-  "redhat.telemetry.enabled": true,
   "atlascode.helpExplorerEnabled": false,
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
-  "prettier.eslintIntegration": true
+  "yaml.schemas": {
+    "file:///c%3A/Users/truon/.vscode/extensions/atlassian.atlascode-2.10.11/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "redhat.telemetry.enabled": true
 }
