@@ -1,0 +1,125 @@
+{
+  "workbench.colorCustomizations": {
+    "[Visual Studio Light]": {
+      "sideBar.background": "#F2F1F8",
+      "sideBar.foreground": "#8d92ff",
+      "editor.background": "#F2F1F8",
+      "terminal.background": "#F2F1F8",
+      "panel.background": "#F2F1F8",
+      "activityBar.background": "#F2F1F8",
+      "activityBar.foreground": "#9a86fd",
+      "activityBar.inactiveForeground": "#E2DFF6",
+      "tab.activeBorderTop": "#9a86fd",
+      "tab.inactiveBackground": "#F2F1F8",
+      "panelTitle.activeBorder": "#8d92ff",
+      "panel.border": "#8d92ff",
+      "statusBar.background": "#E2DFF6",
+      "statusBar.foreground": "#8d92ff",
+      "tab.activeBackground": "#E2DFF6",
+      "breadcrumb.background": "#E2DFF6",
+      "sideBarSectionHeader.background": "#F2F1F8",
+      "activityBarBadge.background": "#8E80FF",
+      "activityBar.activeBorder": "#9a86fd",
+      "titleBar.activeBackground": "#EDECF8",
+      "terminal.ansiGreen": "#20e3b2",
+      "terminal.ansiYellow": "#FDE181",
+      "terminal.ansiMagenta": "#ff6bcb",
+      "editorCursor.foreground": "#9a86fd",
+      "sideBarSectionHeader.border": "#9a86fd"
+    }
+  },
+  "editor.tokenColorCustomizations": {
+    "[Visual Studio Light]": {
+      "textMateRules": [
+        {
+          "scope": ["entity.name.tag"],
+          "settings": {
+            "foreground": "#E53935"
+          }
+        },
+        {
+          "scope": [
+            "entity.other.attribute-name",
+            "entity.other.attribute-name.id.css",
+            "storage.type",
+            "keyword.control.flow.js",
+            "keyword.control.conditional.js",
+            "keyword.operator"
+          ],
+          "settings": {
+            "foreground": "#7C4DFF",
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "scope": [
+            "string.quoted.double.html",
+            "string.quoted.single.html",
+            "string.quoted.double.js",
+            "string.quoted.single.js",
+            "punctuation.definition.entity.css",
+            "string"
+          ],
+          "settings": {
+            "foreground": "#91B859"
+          }
+        },
+        {
+          "scope": ["punctuation.definition.tag", "keyword.control"],
+          "settings": {
+            "foreground": "#39adb5"
+          }
+        },
+        {
+          "scope": [
+            "support.type.property-name",
+            "punctuation.separator.comma.js",
+            "punctuation.terminator.statement.js"
+          ],
+          "settings": {
+            "foreground": "#6182B8"
+          }
+        },
+        {
+          "scope": ["comment", "punctuation.definition.comment.html"],
+          "settings": {
+            "foreground": "#AABFC9"
+          }
+        },
+        {
+          "scope": [
+            "text.html.derivative",
+            "meta.object-literal.key.js",
+            "variable.other.property.js",
+            "variable.other.readwrite.js",
+            "variable.other.object.js",
+            "string.regexp",
+            "variable.other.object.property.js",
+            "support.variable.property.js"
+          ],
+          "settings": {
+            "foreground": "#546E7A"
+          }
+        },
+        {
+          "scope": ["entity.other.attribute-name.class.css"],
+          "settings": {
+            "foreground": "#F6A434"
+          }
+        },
+        {
+          "scope": [
+            "constant.numeric",
+            "keyword.other.unit",
+            "entity.name.function.js",
+            "constant.language",
+            "variable.language"
+          ],
+          "settings": {
+            "foreground": "#F76D47"
+          }
+        }
+      ]
+    }
+  }
+}

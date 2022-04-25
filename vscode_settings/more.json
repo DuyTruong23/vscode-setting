@@ -1,46 +1,4 @@
 {
-  "editor.fontFamily": "Fira Code, Roboto Mono, monospace",
-  "editor.fontLigatures": true,
-  "terminal.integrated.fontFamily": "Fira Code, Roboto Mono, monospace",
-  "editor.fontSize": 16,
-  "editor.lineHeight": 20,
-  "editor.tabSize": 2,
-  "editor.wordWrap": "on",
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "editor.formatOnType": true,
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": true,
-  "editor.guides.highlightActiveIndentation": true,
-  "editor.guides.bracketPairsHorizontal": "active",
-  "prettier.singleQuote": true,
-  "cSpell.language": "en,vi",
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.inlineSuggest.enabled": true,
-  "editor.suggestSelection": "first",
-  "window.autoDetectColorScheme": true,
-  "workbench.preferredLightColorTheme": "Atom One Light",
-  "workbench.preferredDarkColorTheme": "Evondev Dracula Darker Contrast",
-  "files.autoSave": "afterDelay",
-  "editor.codeLensFontFamily": "Fira Code, Roboto Mono, monospace",
-  "editor.cursorSmoothCaretAnimation": true,
-  "diffEditor.codeLens": true,
-  "window.closeWhenEmpty": true,
-  "files.autoSaveDelay": 5000,
-  "editor.smoothScrolling": true,
-  "editor.mouseWheelZoom": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.letterSpacing": 0.5,
-  "editor.cursorBlinking": "smooth",
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "javascript.preferences.quoteStyle": "single",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -76,17 +34,8 @@
   },
   "editor.guides.indentation": false,
   "workbench.tree.renderIndentGuides": "none",
-  "indentRainbow.ignoreLinePatterns": ["/[ \t]* [*]/g", "/[ \t]+[/]{2}/g"],
-  "indentRainbow.errorColor": "rgba(rgba(255, 0, 0, 0.4)",
-  "git.enableSmartCommit": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "window.menuBarVisibility": "compact",
-  "gitlens.defaultDateLocale": "en-vi",
-  "gitlens.defaultDateFormat": "MMM:DD:YYYY h:m",
-  "gitlens.defaultTimeFormat": "h:mm",
-  "gitlens.defaultDateShortFormat": null,
-  "gitlens.hovers.currentLine.over": "line",
-  "workbench.colorTheme": "Dracula Soft",
   "beautify.language": {
     "js": {
       "type": ["javascript", "json"],
@@ -96,9 +45,6 @@
     "html": ["htm", "html"]
   },
   "beautify.ignore": ["*/test.js", "**/spec/*", "**/test/**/*"],
-  "code-runner.runInTerminal": true,
-  "code-runner.saveFileBeforeRun": true,
-  "code-runner.saveAllFilesBeforeRun": true,
   "htmltagwrap.autoDeselectClosingTag": true,
   // Add on
   "atlascode.jira.jqlList": [
@@ -118,5 +64,6 @@
   "atlascode.helpExplorerEnabled": false,
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  }
+  },
+  "prettier.eslintIntegration": true
 }

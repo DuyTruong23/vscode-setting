@@ -1,13 +1,23 @@
 {
   "editor.fontFamily": "Fira Code, Roboto Mono, monospace",
+  "breadcrumbs.enabled": true,
+  "beautify.language": {
+    "html": ["html", "php", "erb", "htm"],
+    "js": {
+      "type": ["javascript", "json"],
+      "filename": [".jshintrc", ".jsbeautifyrc"]
+    },
+    "css": ["css", "scss"]
+  },
+  "prettier.eslintIntegration": true,
+  "editor.formatOnSave": true,
+  "files.eol": "\n",
   "editor.fontLigatures": true,
   "terminal.integrated.fontFamily": "Fira Code, Roboto Mono, monospace",
   "editor.fontSize": 16,
   "editor.lineHeight": 20,
   "editor.tabSize": 2,
-  "editor.cursorWidth": 3,
   "editor.wordWrap": "on",
-  "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
   "editor.bracketPairColorization.enabled": true,
@@ -17,6 +27,9 @@
   "prettier.singleQuote": true,
   "cSpell.language": "en,vi",
   "workbench.iconTheme": "material-icon-theme",
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggestSelection": "first",
+  "window.autoDetectColorScheme": true,
   "files.autoSave": "afterDelay",
   "editor.codeLensFontFamily": "Fira Code, Roboto Mono, monospace",
   "editor.cursorSmoothCaretAnimation": true,
@@ -34,6 +47,7 @@
   },
   "editor.letterSpacing": 0.5,
   "editor.cursorBlinking": "smooth",
+  "editor.cursorWidth": 3,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "javascript.preferences.quoteStyle": "single",
@@ -70,14 +84,24 @@
     "**/package-lock.json": true,
     "**/*.js": { "when": "$(basename).ts" }
   },
-  "workbench.colorTheme": "Dracula Soft",
-  "beautify.language": {
-    "js": {
-      "type": ["javascript", "json"],
-      "filename": [".jshintrc", ".jsbeautifyrc"]
-    },
-    "css": ["css", "scss"],
-    "html": ["htm", "html"]
-  },
-  "beautify.ignore": ["*/test.js", "**/spec/*", "**/test/**/*"]
+  "editor.guides.indentation": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "git.enableSmartCommit": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "window.menuBarVisibility": "classic",
+  "gitlens.defaultDateLocale": "en-vi",
+  "gitlens.defaultDateFormat": "MMM:DD:YYYY h:m",
+  "gitlens.defaultTimeFormat": "h:mm",
+  "gitlens.defaultDateShortFormat": null,
+  "gitlens.hovers.currentLine.over": "line",
+  "beautify.ignore": ["*/test.js", "**/spec/*", "**/test/**/*"],
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "htmltagwrap.autoDeselectClosingTag": true,
+  "git.autofetch": true,
+  "workbench.productIconTheme": "fluent-icons",
+  "prettier.jsxSingleQuote": true,
+  "workbench.preferredLightColorTheme": "Visual Studio Light",
+  "workbench.preferredDarkColorTheme": "Dracula Soft"
 }
