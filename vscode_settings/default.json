@@ -48,5 +48,6 @@
   "workbench.colorTheme": "Visual Studio Light",
   "prettier.singleQuote": true,
   "prettier.jsxSingleQuote": true,
-  "htmltagwrap.autoDeselectClosingTag": true
+  "htmltagwrap.autoDeselectClosingTag": true,
+  "htmltagwrap.tag": "p"
 }
