@@ -1,8 +1,5 @@
 {
-  "cSpell.language": "en,vi",
-  "breadcrumbs.enabled": true,
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "terminal.integrated.fontFamily": "Fira Code, Roboto Mono, monospace",
+  // Editor
   "editor.fontFamily": "Fira Code, Roboto Mono, monospace",
   "editor.codeLensFontFamily": "Fira Code, Roboto Mono, monospace",
   "editor.formatOnSave": true,
@@ -18,9 +15,6 @@
   "editor.guides.highlightActiveIndentation": true,
   "editor.guides.bracketPairsHorizontal": "active",
   "editor.cursorSmoothCaretAnimation": true,
-  "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 5000,
-  "files.trimTrailingWhitespace": true,
   "editor.smoothScrolling": true,
   "editor.mouseWheelZoom": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -30,24 +24,77 @@
   "editor.lineNumbers": "on",
   "editor.hover.enabled": true,
   "editor.renderWhitespace": "none",
+  "editor.inlineSuggest.enabled": true,
+  "editor.guides.indentation": false,
+  "editor.codeLens": true,
+  "editor.renderControlCharacters": false,
+  "editor.renderLineHighlight": "all",
+  "editor.suggestSelection": "first",
   "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.compactFolders": true,
-  "javascript.preferences.quoteStyle": "single",
-  "html.format.wrapAttributesIndentSize": 2,
-  "html.format.templating": true,
-  "javascript.format.insertSpaceAfterCommaDelimiter": true,
-  "javascript.format.semicolons": "insert",
-  "window.closeWhenEmpty": true,
-  "window.autoDetectColorScheme": true,
-  "workbench.productIconTheme": "fluent-icons",
+  // Files
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 5000,
+  "files.trimTrailingWhitespace": true,
+  // Prettier
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.eslintIntegration": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // Workbench
   "workbench.iconTheme": "material-icon-theme",
   "workbench.preferredLightColorTheme": "Visual Studio Light",
   "workbench.preferredDarkColorTheme": "Dracula Soft",
-  "workbench.colorTheme": "Visual Studio Light",
-  "prettier.singleQuote": true,
-  "prettier.jsxSingleQuote": true,
+  "workbench.colorTheme": "Dracula Soft",
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.productIconTheme": "fluent-icons",
+  // Explorer
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": true,
+  // Window
+  "window.closeWhenEmpty": true,
+  "window.autoDetectColorScheme": true,
+  "cSpell.diagnosticLevel": "Hint",
+  "cSpell.language": "en,vi",
+  // Beautify
+  "beautify.ignore": ["*/test.js", "**/spec/*", "**/test/**/*"],
+  "beautify.language": {
+    "js": {
+      "type": ["javascript", "json"],
+      "filename": [".jshintrc", ".jsbeautifyrc"]
+    },
+    "css": ["css", "scss"],
+    "html": ["html", "php", "erb", "htm"]
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.format.semicolons": "insert",
+  "javascript.format.insertSpaceAfterCommaDelimiter": true,
+  "html.format.wrapAttributesIndentSize": 2,
+  "html.format.templating": true,
   "htmltagwrap.autoDeselectClosingTag": true,
-  "htmltagwrap.tag": "p"
+  "htmltagwrap.tag": "p",
+  "diffEditor.codeLens": true,
+  "files.eol": "\n",
+  "files.associations": {
+    "*.json": "jsonc"
+  },
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/package-lock.json": true,
+    "**/*.js": { "when": "$(basename).ts" }
+  },
+  "breadcrumbs.enabled": true,
+  // Git
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "gitignore.cacheExpirationInterval": 3600
 }

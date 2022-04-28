@@ -7,7 +7,7 @@
       "color": "#FF2D00",
       "strikethrough": false,
       "underline": false,
-      "backgroundColor": "#ffffff",
+      "backgroundColor": "#F2F1F8",
       "bold": true,
       "italic": false
     },
@@ -16,7 +16,7 @@
       "color": "#3498DB",
       "strikethrough": false,
       "underline": false,
-      "backgroundColor": "transparent",
+      "backgroundColor": "#F2F1F8",
       "bold": false,
       "italic": false
     },
@@ -30,7 +30,7 @@
       "italic": false
     },
     {
-      "tag": "todo",
+      "tag": "=>",
       "color": "#FF8C00",
       "strikethrough": false,
       "underline": false,
@@ -48,8 +48,8 @@
       "italic": false
     },
     {
-      "tag": "NOTE",
-      "color": "#fff",
+      "tag": "Ex",
+      "color": "#ff6bcb",
       "strikethrough": false,
       "backgroundColor": "#transparent",
       "bold": false,
