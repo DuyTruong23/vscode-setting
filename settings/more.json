@@ -67,7 +67,6 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   //   More
-
   "atlascode.jira.jqlList": [
     {
       "id": "32f02d69-b404-4d5a-af19-25944d6c391a",

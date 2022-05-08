@@ -1,36 +1,27 @@
 {
   "better-comments.highlightPlainText": false,
-  "better-comments.multilineComments": true,
   "better-comments.tags": [
     {
       "tag": "!",
-      "color": "#FF2D00",
+      "color": "#ff5370",
       "strikethrough": false,
       "underline": false,
-      "backgroundColor": "#F2F1F8",
+      "backgroundColor": "#eeffff",
       "bold": true,
       "italic": false
     },
     {
       "tag": "?",
-      "color": "#32ADE6",
+      "color": "#89ddff",
       "strikethrough": false,
       "underline": false,
-      "backgroundColor": "#F2F1F8",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "",
-      "color": "#474747",
-      "strikethrough": true,
-      "underline": false,
+      "backgroundColor": "#eeffff",
       "bold": false,
       "italic": false
     },
     {
       "tag": "=>",
-      "color": "#ff6bcb",
+      "color": "#eeffff",
       "strikethrough": false,
       "underline": false,
       "backgroundColor": "transparent",
@@ -39,7 +30,7 @@
     },
     {
       "tag": "*",
-      "color": "#20e3b2",
+      "color": "#c3e88d",
       "strikethrough": false,
       "underline": false,
       "backgroundColor": "transparent",
@@ -48,9 +39,9 @@
     },
     {
       "tag": "Ex",
-      "color": "#FDE181",
+      "color": "#ffcb6b",
       "strikethrough": false,
-      "backgroundColor": "#F2F1F8",
+      "backgroundColor": "#transparent",
       "bold": false,
       "italic": true
     }

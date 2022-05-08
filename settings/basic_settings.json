@@ -1,0 +1,65 @@
+{
+  // Editor
+  "editor.fontFamily": "Fira Code, Consolas, Roboto Mono, monospace",
+  "editor.codeLensFontFamily": "Fira Code, Consolas, Roboto Mono, monospace",
+  "editor.formatOnSave": true,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 25,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.smoothScrolling": true,
+  "editor.mouseWheelZoom": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorWidth": 3,
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  // // Files
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 5000,
+  "files.trimTrailingWhitespace": true,
+  // // Workbench
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "fluent-icons",
+  "better-comments.highlightPlainText": false,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#ff5370",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#eeffff",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "=>",
+      "color": "#82aaff",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#c3e88d",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "tag": "Ex",
+      "color": "#ffcb6b",
+      "strikethrough": false,
+      "backgroundColor": "#transparent",
+      "bold": false,
+      "italic": true
+    }
+  ]
+}
