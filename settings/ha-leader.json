@@ -1,0 +1,27 @@
+{
+  "files.eol": "\n",
+  "terminal.integrated.rendererType": "dom",
+  "typescript.validate.enable": false,
+  "javascript.validate.enable": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.activityBar.visible": true,
+  "editor.wordWrap": "on",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": false
+  },
+  "editor.formatOnSave": false,
+  "kite.showWelcomeNotificationOnStartup": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "eslint.format.enable": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.tree.indent": 4,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.startupEditor": "none"
+}
