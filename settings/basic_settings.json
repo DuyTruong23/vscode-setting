@@ -61,5 +61,51 @@
       "bold": false,
       "italic": true
     }
-  ]
+  ],
+  "files.eol": "\n",
+  "typescript.validate.enable": false,
+  "javascript.validate.enable": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.activityBar.visible": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": false
+  },
+  "eslint.format.enable": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.tree.indent": 4,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.startupEditor": "none",
+  "editor.wordWrapColumn": 90,
+  "editor.renderWhitespace": "none",
+  "editor.guides.bracketPairs": true,
+  "editor.letterSpacing": 0.3,
+  "editor.snippetSuggestions": "top",
+  "workbench.list.smoothScrolling": true,
+  "window.closeWhenEmpty": true,
+  "window.autoDetectColorScheme": true,
+  "cSpell.language": "en,vi",
+  "htmltagwrap.autoDeselectClosingTag": true,
+  "workbench.colorCustomizations": {
+    "terminal.foreground": "#8d8f92",
+    "terminal.ansiBlack": "#231F20",
+    "terminal.ansiBlue": "#92ffff",
+    "terminal.ansiCyan": "#ff80bf",
+    "terminal.ansiGreen": "#61FFCA",
+    "terminal.ansiMagenta": "#9580ff",
+    "terminal.ansiRed": "#ff9580",
+    "terminal.ansiWhite": "#8d8f92",
+    "terminal.ansiYellow": "#ffff80"
+  },
+  "workbench.preferredLightColorTheme": "Atom One Light",
+  "workbench.preferredDarkColorTheme": "Aura Soft Dark",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.colorTheme": "Aura Soft Dark",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.enableSmartCommit": true,
+  "editor.inlineSuggest.enabled": true
 }
