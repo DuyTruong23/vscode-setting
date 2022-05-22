@@ -1,0 +1,89 @@
+{
+  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "workbench.colorTheme": "Aura Soft Dark", // ==> asidasd
+  "editor.inlineSuggest.enabled": true,
+  "editor.tabSize": 2,
+  "editor.fontSize": 16,
+  "editor.wordWrap": "on",
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.smoothScrolling": true,
+  "editor.mouseWheelZoom": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.cursorWidth": 3,
+  "editor.wordWrapColumn": 90,
+  "editor.cursorBlinking": "expand",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.associations": {
+    "*.json": "jsonc",
+    "*.js": "javascriptreact"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "cSpell.diagnosticLevel": "Hint",
+  "cSpell.language": "en,vi",
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/package-lock.json": true,
+    "**/*.js": { "when": "$(basename).ts" }
+  },
+  // Rainbow
+  "indentRainbow.colors": [
+    "rgba(247, 37, 133,0.07)",
+    "rgba(181, 23, 158,0.07)",
+    "rgba(114, 9, 183,0.07)",
+    "rgba(86, 11, 173,0.07)",
+    "rgba(72, 12, 168,0.07)",
+    "rgba(58, 12, 163,0.07)",
+    "rgba(63, 55, 201,0.07)",
+    "rgba(67, 97, 238,0.07)",
+    "rgba(72, 149, 239,0.07)",
+    "rgba(76, 201, 240,0.07)"
+  ],
+  "indentRainbow.ignoreLinePatterns": ["/[ \t]* [*]/g", "/[ \t]+[/]{2}/g"],
+  "indentRainbow.errorColor": "rgba(rgba(255, 0, 0, 0.4)",
+  "kite.showWelcomeNotificationOnStartup": false,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.eslintIntegration": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": true,
+  "window.closeWhenEmpty": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 5000,
+  "files.trimTrailingWhitespace": true,
+  //"editor.renderLineHighlight":"all",
+  //"editor.renderControlCharacters":false,
+  //"emmet.triggerExpansionOnTab":true,
+  //"editor.inlineSuggest.enabled":true,
+  //"editor.fontLigatures":true,
+  //"editor.guides.highlightActiveIndentation":true,
+  //"editor.guides.bracketPairsHorizontal":"active",
+  //"editor.guides.indentation":false,
+  //"editor.hover.enabled":true,
+  //"editor.codeLens":true,
+  //"editor.wordSeparators":"/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  // "editor.letterSpacing": 0.3,
+  "workbench.list.smoothScrolling": true,
+  "editor.renderWhitespace": "none",
+  "editor.guides.bracketPairs": true,
+  "editor.snippetSuggestions": "top",
+  "editor.suggestSelection": "first",
+  "editor.lineHeight": 23
+}
