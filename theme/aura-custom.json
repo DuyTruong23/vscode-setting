@@ -1,0 +1,18 @@
+{
+  "workbench.colorCustomizations": {
+    "terminal.foreground": "#8d8f92",
+    "terminal.ansiBlack": "#231F20",
+    "terminal.ansiBlue": "#92ffff",
+    "terminal.ansiCyan": "#ff80bf",
+    "terminal.ansiGreen": "#61FFCA",
+    "terminal.ansiMagenta": "#9580ff",
+    "terminal.ansiRed": "#ff9580",
+    "terminal.ansiWhite": "#8d8f92",
+    "terminal.ansiYellow": "#ffff80",
+    "[Aura Soft Dark]": {
+      "editorGroupHeader.tabsBackground": "#121016",
+      "tab.activeBackground": "#21202E",
+      "tab.inactiveBackground": "#121016"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{ 
+    "editor.renderLineHighlight": "all",
+    "editor.renderControlCharacters": false,
+
+    "editor.hover.enabled": true,
+    "editor.codeLens": true,
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+    "editor.letterSpacing": 0.3,
+    "editor.renderWhitespace": "none",
+    "editor.snippetSuggestions": "top",
+    "editor.suggestSelection": "first",
+    "editor.lineHeight": 23,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": false
+    }
+  }

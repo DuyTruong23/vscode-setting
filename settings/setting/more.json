@@ -1,0 +1,56 @@
+{ "files.associations": {
+    "*.json": "jsonc",
+    "*.js": "javascriptreact"
+  },
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "cSpell.diagnosticLevel": "Hint",
+  
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/package-lock.json": true,
+    "**/*.js": { "when": "$(basename).ts" }
+  },
+  "beautify.ignore": ["*/test.js", "**/spec/*", "**/test/**/*"],
+  "beautify.language": {
+    "js": {
+      "type": ["javascript", "json"],
+      "filename": [".jshintrc", ".jsbeautifyrc"]
+    },
+    "css": ["css", "scss"],
+    "html": ["html", "php", "erb", "htm"]
+  },
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+
+  "liveServer.settings.donotShowInfoMsg": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 5000,
+  "files.trimTrailingWhitespace": true,
+  "emmet.triggerExpansionOnTab": true,
+
+  "[javascript, javascriptreact, typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json, jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "typescript.validate.enable": false,
+  "javascript.validate.enable": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.closeWhenEmpty": true,
+  "window.autoDetectColorScheme": true,
+  "eslint.format.enable": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+ }
