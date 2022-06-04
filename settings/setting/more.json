@@ -1,4 +1,5 @@
-{ "files.associations": {
+{
+  "files.associations": {
     "*.json": "jsonc",
     "*.js": "javascriptreact"
   },
@@ -11,7 +12,7 @@
   },
 
   "cSpell.diagnosticLevel": "Hint",
-  
+
   "files.exclude": {
     "**/node_modules": true,
     "**/package-lock.json": true,
@@ -52,5 +53,5 @@
   "eslint.format.enable": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "diffEditor.ignoreTrimWhitespace": false,
-  "typescript.updateImportsOnFileMove.enabled": "always",
- }
+  "typescript.updateImportsOnFileMove.enabled": "always"
+}
