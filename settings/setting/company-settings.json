@@ -1,0 +1,109 @@
+{
+  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.codeLensFontFamily": "Fira Code, Consolas, Roboto Mono, monospace",
+  "editor.fontLigatures": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.tabSize": 2,
+  "editor.fontSize": 16,
+  "editor.wordWrap": "on",
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": false,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.smoothScrolling": true,
+  "editor.mouseWheelZoom": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.cursorWidth": 3,
+  "editor.wordWrapColumn": 90,
+  "editor.cursorBlinking": "expand",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.renderLineHighlight": "all",
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": "active",
+  "editor.guides.indentation": false,
+  "editor.hover.enabled": true,
+  "editor.codeLens": true,
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.lineHeight": 23,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "cSpell.diagnosticLevel": "Hint",
+  "cSpell.language": "en,vi",
+  "indentRainbow.colors": [
+    "rgba(247, 37, 133,0.07)",
+    "rgba(181, 23, 158,0.07)",
+    "rgba(114, 9, 183,0.07)",
+    "rgba(86, 11, 173,0.07)",
+    "rgba(72, 12, 168,0.07)",
+    "rgba(58, 12, 163,0.07)",
+    "rgba(63, 55, 201,0.07)",
+    "rgba(67, 97, 238,0.07)",
+    "rgba(72, 149, 239,0.07)",
+    "rgba(76, 201, 240,0.07)"
+  ],
+  "indentRainbow.ignoreLinePatterns": ["/[ \t]* [*]/g", "/[ \t]+[/]{2}/g"],
+  "indentRainbow.errorColor": "rgba(rgba(255, 0, 0, 0.4)",
+  "beautify.ignore": ["*/test.js", "**/spec/*", "**/test/**/*"],
+  "beautify.language": {
+    "js": {
+      "type": ["javascript", "json"],
+      "filename": [".jshintrc", ".jsbeautifyrc"]
+    },
+    "css": ["css", "scss"],
+    "html": ["html", "php", "erb", "htm"]
+  },
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": true,
+  "window.closeWhenEmpty": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 5000,
+  "files.trimTrailingWhitespace": true,
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/package-lock.json": true,
+    "**/*.js": { "when": "$(basename).ts" }
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "tabnine.experimentalAutoImports": true,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "htmltagwrap.autoDeselectClosingTag": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "workbench.startupEditor": "none",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.list.smoothScrolling": true,
+  "workbench.colorTheme": "Aura Soft Dark",
+  "workbench.colorCustomizations": {
+    "terminal.foreground": "#8d8f92",
+    "terminal.ansiBlack": "#231F20",
+    "terminal.ansiBlue": "#92ffff",
+    "terminal.ansiCyan": "#ff80bf",
+    "terminal.ansiGreen": "#61FFCA",
+    "terminal.ansiMagenta": "#9580ff",
+    "terminal.ansiRed": "#ff9580",
+    "terminal.ansiWhite": "#8d8f92",
+    "terminal.ansiYellow": "#ffff80",
+    "[Aura Soft Dark]": {
+      "editorGroupHeader.tabsBackground": "#121016",
+      "tab.activeBackground": "#21202E",
+      "tab.inactiveBackground": "#121016"
+    }
+  }
+}
