@@ -15,7 +15,7 @@
   "editor.suggest.showStatusBar": true,
   "workbench.list.horizontalScrolling": true,
   "workbench.list.smoothScrolling": true,
-  "workbench.colorTheme": "Aura Soft Dark",
+  "workbench.colorTheme": "Dracula",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "left",
   "window.closeWhenEmpty": true,
