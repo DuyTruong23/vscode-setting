@@ -1,7 +1,0 @@
-{
-  "gitlens.defaultDateLocale": "en-vi",
-  "gitlens.defaultDateFormat": "MMM:DD:YYYY h:m",
-  "gitlens.defaultTimeFormat": "h:mm",
-  "gitlens.defaultDateShortFormat": null,
-  "gitlens.hovers.currentLine.over": "line"
-}

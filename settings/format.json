@@ -1,0 +1,70 @@
+{
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.fontSize": 16,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.letterSpacing": 0.3, // Simplified word
+  "editor.guides.bracketPairs": true,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorWidth": 3,
+  "editor.cursorBlinking": "expand",
+  "editor.smoothScrolling": true,
+  "editor.mouseWheelZoom": true,
+  "indentRainbow.colors": [
+    "rgba(247, 37, 133,0.07)",
+    "rgba(181, 23, 158,0.07)",
+    "rgba(114, 9, 183,0.07)",
+    "rgba(86, 11, 173,0.07)",
+    "rgba(72, 12, 168,0.07)",
+    "rgba(58, 12, 163,0.07)",
+    "rgba(63, 55, 201,0.07)",
+    "rgba(67, 97, 238,0.07)",
+    "rgba(72, 149, 239,0.07)",
+    "rgba(76, 201, 240,0.07)"
+  ],
+  "indentRainbow.ignoreLinePatterns": ["/[ \t]* [*]/g", "/[ \t]+[/]{2}/g"],
+  "indentRainbow.errorColor": "rgba(rgba(255, 0, 0, 0.4)",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 5000,
+  "editor.wordWrap": "on",
+  "workbench.colorTheme": "Dracula",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#5bb3b3",
+    "editorBracketHighlight.foreground2": "#fac863",
+    "editorBracketHighlight.foreground3": "#f99157",
+    "editorBracketHighlight.foreground4": "#ec5f67",
+    "editorBracketHighlight.foreground5": "#bb80b3",
+    "editorBracketHighlight.foreground6": "#98C379",
+    "[Aura Soft Dark]": {
+      "editorGroupHeader.tabsBackground": "#121016",
+      "tab.activeBackground": "#21202E",
+      "tab.inactiveBackground": "#121016"
+    }
+  },
+  "extensions.ignoreRecommendations": true,
+  "eslint.validate": ["javascript"],
+  "reactSnippets.settings.prettierEnabled": true,
+  "prettier.configPath": ".prettierrc.js",
+  "prettier.prettierPath": ".prettierrc.js",
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "eslint.format.enable": true,
+  "eslint.codeActionsOnSave.rules": [".eslintrc.json"],
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "emmet.triggerExpansionOnTab": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false
+}
