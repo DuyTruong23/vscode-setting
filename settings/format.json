@@ -66,5 +66,5 @@
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "emmet.triggerExpansionOnTab": true,
   "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false
+  "explorer.confirmDragAndDrop": false,
 }
