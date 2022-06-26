@@ -13,26 +13,6 @@
   "editor.cursorBlinking": "expand",
   "editor.smoothScrolling": true,
   "editor.mouseWheelZoom": true,
-  "indentRainbow.colors": [
-    "rgba(247, 37, 133,0.07)",
-    "rgba(181, 23, 158,0.07)",
-    "rgba(114, 9, 183,0.07)",
-    "rgba(86, 11, 173,0.07)",
-    "rgba(72, 12, 168,0.07)",
-    "rgba(58, 12, 163,0.07)",
-    "rgba(63, 55, 201,0.07)",
-    "rgba(67, 97, 238,0.07)",
-    "rgba(72, 149, 239,0.07)",
-    "rgba(76, 201, 240,0.07)"
-  ],
-  "indentRainbow.ignoreLinePatterns": ["/[ \t]* [*]/g", "/[ \t]+[/]{2}/g"],
-  "indentRainbow.errorColor": "rgba(rgba(255, 0, 0, 0.4)",
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "git.confirmSync": false,
   "git.autofetch": true,
   "files.autoSave": "afterDelay",
@@ -67,4 +47,24 @@
   "emmet.triggerExpansionOnTab": true,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
+  "indentRainbow.colors": [
+    "rgba(247, 37, 133,0.07)",
+    "rgba(181, 23, 158,0.07)",
+    "rgba(114, 9, 183,0.07)",
+    "rgba(86, 11, 173,0.07)",
+    "rgba(72, 12, 168,0.07)",
+    "rgba(58, 12, 163,0.07)",
+    "rgba(63, 55, 201,0.07)",
+    "rgba(67, 97, 238,0.07)",
+    "rgba(72, 149, 239,0.07)",
+    "rgba(76, 201, 240,0.07)"
+  ],
+  "indentRainbow.ignoreLinePatterns": ["/[ \t]* [*]/g", "/[ \t]+[/]{2}/g"],
+  "indentRainbow.errorColor": "rgba(rgba(255, 0, 0, 0.4)",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }
