@@ -1,0 +1,133 @@
+{
+    // Custom Theme Color Customizations
+  "workbench.colorCustomizations": {
+    "list.activeSelectionForeground": "#FBFBFD",
+    // "list.inactiveSelectionBackground": "#22212C",
+    "list.inactiveSelectionBackground": "#5c5b77",
+    "[Dracula Theme]": {
+      "editor.background": "#22212C",
+      "editorGroupHeader.tabsBackground": "#0B0A11",
+      "editorCursor.foreground": "#FBFBFD",
+      "editorLineNumber.foreground": "#8273B5",
+      "editorWidget.border": "#8273B5",
+      "tab.unfocusedActiveBackground": "#151320",
+      "tab.unfocusedActiveBorder": "#151320",
+      "tab.unfocusedInactiveBackground": "#151320",
+      "tab.inactiveBackground": "#151320",
+      "tab.activeBackground": "#22212C",
+      "breadcrumb.background": "#22212D",
+      "breadcrumb.foreground": "#8273B5",
+      "panel.border": "#0B0A10",
+      "panel.background": "#22212C",
+      "terminal.background": "#22212C",
+      "terminal.ansiMagenta": "#F088BD",
+      "terminal.ansiGreen": "#A5FB8F",
+      "terminal.ansiYellow": "#F7CB8B",
+      "terminal.ansiCyan": "#9FFCEA",
+      "terminal.ansiWhite": "#FBFBFD",
+      "activityBar.background": "#2B2640",
+      "activityBarBadge.background": "#F088BD",
+      "activityBar.activeBorder": "#8273B5",
+      "activityBar.inactiveForeground": "#8273B5",
+      "titleBar.activeBackground": "#151320",
+      "titleBar.activeForeground": "#8273B5",
+      "statusBar.foreground": "#8273B5",
+      "statusBar.background": "#0B0A10",
+      "sideBar.background": "#161321",
+      "sideBar.border": "#0B0A11",
+      "sideBarSectionHeader.foreground": "#8273B5",
+      "sideBarSectionHeader.background": "#22212D",
+      "tab.activeBorderTop": "#8273B5",
+      "tab.inactiveForeground": "#8273B5",
+      "tab.lastPinnedBorder": "#ff0000"
+    }
+  },
+
+  // Custom Token Colors for Syntax Highlighting
+  "editor.tokenColorCustomizations": {
+    "[Dracula Theme]": {
+      "textMateRules": [
+        {
+          "scope": ["variable.other.constant"],
+          "settings": {
+            "foreground": "#9183F7"
+          }
+        },
+        {
+          "scope": ["keyword", "storage", "entity.name.tag"],
+          "settings": {
+            "foreground": "#F088BD"
+          }
+        },
+        {
+          "scope": ["punctuation.definition.group.assertion.regexp"],
+          "settings": {
+            "foreground": "#F29A85"
+          }
+        },
+        {
+          "scope": ["string.template.js", "variable.parameter"],
+          "settings": {
+            "foreground": "#F7CB8B"
+          }
+        },
+        {
+          "scope": ["string.quoted.double.js", "variable"],
+          "settings": {
+            "foreground": "#FFFE92"
+          }
+        },
+        {
+          "scope": ["variable.other.property"],
+          "settings": {
+            "foreground": "#FFC97F"
+          }
+        },
+        {
+          "scope": ["variable"],
+          "settings": {
+            "foreground": "#F7F8F2"
+          }
+        },
+        {
+          "scope": [
+            "entity.name.function",
+            "entity.other.attribute-name",
+            "meta.assertion.look-ahead.regexp",
+            "entity.name.function.member"
+          ],
+          "settings": {
+            "foreground": "#8BFF80"
+          }
+        },
+        {
+          "scope": [
+            "support",
+            "punctuation.terminator.statement",
+            "punctuation.separator.comma"
+          ],
+          "settings": {
+            "foreground": "#80FFEA"
+          }
+        },
+        {
+          "scope": [
+            "comment",
+            "punctuation.definition.comment",
+            "keyword",
+            "variable.language",
+            "entity.other.attribute-name.html",
+            "entity.other.attribute-name",
+            "keyword.control",
+            "storage.type",
+            "comment.block",
+            "comment.line"
+          ],
+          "settings": {
+            "foreground": "#7970A9"
+          }
+        }
+      ]
+    }
+  },
+}
